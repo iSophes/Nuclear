@@ -1,0 +1,32 @@
+site_name: Nuclear
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: light blue
+      accent: light green
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: light blue
+      accent: light green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+      text: Plus Jakarta Sans
+      code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.instant
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+  icon:
+    repo: octicons/mark-github-16
