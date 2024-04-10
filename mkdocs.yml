@@ -32,8 +32,3 @@ theme:
     - search.highlight
   icon:
     repo: octicons/mark-github-16
-
-plugins:
-  - git-committers:
-      repository: squidfunk/mkdocs-material
-      branch: main
