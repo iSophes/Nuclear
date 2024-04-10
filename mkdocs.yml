@@ -1,4 +1,6 @@
 site_name: Nuclear
+repo_url: https://github.com/iSophes/Nuclear
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -30,3 +32,8 @@ theme:
     - search.highlight
   icon:
     repo: octicons/mark-github-16
+
+plugins:
+  - git-committers:
+      repository: squidfunk/mkdocs-material
+      branch: main
