@@ -9,24 +9,25 @@ extra:
 
 theme:
   name: material
+  custom_dir: docs/assets/overrides
+  logo: assets/NuclearLogo.png
+  favicon: assets/NuclearLogo.png
   palette:
-    - scheme: default
-      primary: light blue
-      accent: light green
+    - media: "(prefers-color-scheme: dark)"
+      scheme: nuclear-dark
       toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
+        icon: octicons/sun-24
+        name: Switch to light theme
 
-    # Palette toggle for dark mode
-    - scheme: slate
-      primary: light blue
-      accent: light green
+    - media: "(prefers-color-scheme: light)"
+      scheme: nuclear-light
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: octicons/moon-24
+        name: Switch to dark theme
+    
   font:
-      text: Plus Jakarta Sans
-      code: JetBrains Mono
+    text: Plus Jakarta Sans
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.top
@@ -38,5 +39,38 @@ theme:
   icon:
     repo: octicons/mark-github-16
 
+extra_css:
+  - assets/theme/home.css
+  - assets/theme/404.css
+  - assets/theme/colours.css
+  - assets/theme/nuclear.css
+  - assets/theme/page.css
+  - assets/theme/paragraph.css
+  - assets/theme/code.css
+
+extra_javascript:
+  - assets/scripts/smooth-scroll.js
+
 nav:
   - Home: index.md
+  - Tutorials:
+    - Get Started: tutorials/index.md
+    - Using The Framework: 
+      - Loading Modules: tutorials/Using The Framework/Loading.md
+      - Using Libraries: tutorials/Using The Framework/Libraries.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

@@ -1,0 +1,9 @@
+[package]
+name = "isophes/nuclear"
+version = "0.0.1"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+
+Red = "red-blox/red@2.3.0"
