@@ -6,4 +6,4 @@ realm = "shared"
 
 [dependencies]
 
-Red = "red-blox/red@2.3.0"
+bytenet = "ffrostflame/bytenet@0.4.5"

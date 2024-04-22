@@ -106,7 +106,3 @@
 	display: none !important;
 }
 
-[data-md-color-scheme="nuclear-light"] img[src$="#only-light"],
-[data-md-color-scheme="nuclear-dark"] img[src$="#only-dark"] {
-	display: initial;
-}

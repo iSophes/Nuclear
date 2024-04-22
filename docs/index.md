@@ -49,7 +49,7 @@ Nuclear doesn't faff about with creating services, controllers, making new objec
 
 <h2 class="second">Custom Networking</h2>
 
-Nuclear offers a Networking library called [Red](https://github.com/red-blox/Red), a "Simple, fast and powerful networking library". However, we don't tie you down to this and allow for easy changes to whichever networking library you may use!
+Nuclear offers a Networking library called [ByteNet](https://ffrostflame.github.io/ByteNet/), a networking framework which describes itself as "simple, buffer-based networking". We believe that this is currently one of the best networking libraries out and you should definitely use this. However, we don't tie you down to this and allow for easy changes to whichever networking library you may use!
 
 We like our customisability at Nuclear, and it's what
 our users deserve.
@@ -63,7 +63,7 @@ our users deserve.
 <h2 class="third">Custom Utensils</h2>
 
 Nuclear comes with industry-standard tools to help you write clean, robust code.
-Some of these tools include: [Fusion](https://elttob.uk/Fusion/0.2/), [Promise](https://eryn.io/roblox-lua-promise/) and a lot more!
+Some of these tools include: [Promise](https://eryn.io/roblox-lua-promise/), [Maid](https://quenty.github.io/NevermoreEngine/api/Maid/)
 
 Nuclear lets you choose what tools you want and allows for instant removal or addition for any packages you want!
 

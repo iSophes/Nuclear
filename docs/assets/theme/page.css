@@ -190,25 +190,12 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 2.4rem;
-	height: 0.8rem;
+	height: 0.7rem;
 	margin: auto 0;
-}
-
-
-[data-md-color-scheme="nuclear-light"] .md-header__title .md-header__topic:first-child::before {
-	background-image: url(../wordmark-tiny-light.svg);
-}
-
-[data-md-color-scheme="nuclear-dark"] .md-header__title .md-header__topic:first-child::before {
-	background-image: url(../wordmark-tiny-dark.svg);
 }
 
 .md-header__title[data-md-state=active] .md-header__topic {
     transform: translateY(-0.5rem);
-}
-
-.md-header__title .md-header__topic+.md-header__topic {
-    transform: translateY(0.5rem);
 }
 
 .md-tabs[data-md-state="hidden"] .md-tabs__link {
@@ -301,7 +288,7 @@
 }
 
 ::selection {
-	background-color: var(--nuclear-orange-n1);
+	background-color: var(--nuclear-magenta-n1);
 	color: var(--nuclear-grey-10);
 }
 
