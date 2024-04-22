@@ -9,10 +9,10 @@ The most well-known module loader / framework is probably Knit, which has a lot 
 That's where Nuclear comes in. Nuclear does what a simple framework should do, without the unneccessary bloat.
 
 ## Issues & Contribution.
-Read the (Contribution Guide)[CONTRIBUTING.md] to contribute!
+Read the [Contribution Guide](CONTRIBUTING.md) to contribute!
 
 ## LICENSE
-Nuclear is licenced freely under the (MIT License)[LICENSE]!
+Nuclear is licenced freely under the [MIT License](LICENSE)!
 
 ## Documentation
 Our documentation can be found here! N/A
