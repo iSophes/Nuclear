@@ -1,7 +1,8 @@
 # Project place file
-/Nuclear.rbxlx
+/nuclear.rbxl
 
 # Roblox Studio lock files
 /*.rbxlx.lock
 /*.rbxl.lock
 /*.vscode
+/*.rbxm

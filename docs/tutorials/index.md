@@ -39,13 +39,20 @@ We don't expect experts here! You should just know the basics.
 There are currently two methods of installing Nuclear, dependent of how you code.
 
 ## If you are using Roblox Studio
-??? example "Steps (click to expand)"
+??? example "Method 1 Steps (click to expand)"
 	- Head over to [Our Releases Page](https://github.com/iSophes/Nuclear)
 	- Click "Assets" to view the downloadable files:
 	- ![Picture of Nuclear's GitHub Releases page, with the Assets dropdown highlighted.]()
 	- ![Picture of Nuclear's GitHub Releases page, with the Assets dropdown highlighted.]()
 	- Then, download ***Nuclear.rbxm*** and drag and drop it into your workspace.
 	- Move your new model into ***ReplicatedStorage***
+	- Kaboom! Nuclear is installed!
+
+??? example "Method 2 Steps (click to expand)"
+	- Head over to [The Model](https://create.roblox.com/store/asset/17266598305) and press "Get"
+	- Once got, navigate to your toolbox and find "My Models"
+	- Click on "Nuclear" and it will be in your **Workspace**.
+	- Drag it into **ReplicatedStorage**
 	- Kaboom! Nuclear is installed!
 
 ## If you are using Rojo
@@ -62,6 +69,8 @@ There are currently two methods of installing Nuclear, dependent of how you code
 
 	- Run the following command and wally will automatically install Nuclear for you to use!
 		- `wally install`
+
+	- Kaboom! Nuclear is installed!
 
 # Need help?
 
