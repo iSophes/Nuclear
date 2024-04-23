@@ -17,5 +17,9 @@
       ],
       "robloxLsp.diagnostics.globals": [
         "buffer"
+      ],
+      "robloxLsp.diagnostics.disable": [
+        "undefined-type",
+        "invalid-class-name"
       ]
 }
