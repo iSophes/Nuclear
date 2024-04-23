@@ -10,8 +10,8 @@ Nuclear allows you to initialise code to be ran before other modules have loaded
 
 This is through the syntax
 
-```
-function Module:Init(nil)
+```lua
+function Module:Init(nil): nil
 
 end
 ```
@@ -22,8 +22,8 @@ Nuclear also allows you to start your code with the guarantee that other modules
 
 This function has a similar syntax to Module:Init()
 
-```
-function Module:Start(nil)
+```lua
+function Module:Start(nil): nil
 
 end
 ```

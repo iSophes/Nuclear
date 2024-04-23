@@ -63,7 +63,7 @@ our users deserve.
 <h2 class="third">Custom Utensils</h2>
 
 Nuclear comes with industry-standard tools to help you write clean, robust code.
-Some of these tools include: [Promise](https://eryn.io/roblox-lua-promise/), [Maid](https://quenty.github.io/NevermoreEngine/api/Maid/)
+Some of these tools include: [Promise](https://eryn.io/roblox-lua-promise/), [Trove](https://sleitnick.github.io/RbxUtil/api/Trove/)
 
 Nuclear lets you choose what tools you want and allows for instant removal or addition for any packages you want!
 

@@ -1,0 +1,12 @@
+{
+	"name": "nuclear-publish",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Packages": {
+				"$path": "default.project.json"
+			}
+		}
+	}
+}

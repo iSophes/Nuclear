@@ -1,12 +1,19 @@
 -- selene: allow(incorrect_standard_library_use)
-local remodel = require("./remodel")
+local fs = require("@lune/fs")
+-- selene: allow(incorrect_standard_library_use)
+local net = require("@lune/net")
 
--- One use for Remodel is to move the terrain of one place into another place.
-local inputGame = remodel.readPlaceFile("input-place.rbxlx")
-local outputGame = remodel.readPlaceFile("output-place.rbxlx")
+-- Remodel Publish script
 
--- This isn't possible inside Roblox, but works just fine in Remodel!
-outputGame.Workspace.Terrain:Destroy()
-inputGame.Workspace.Terrain.Parent = outputGame.Workspace
+local NUCLEAR_ID = "17266598305"
 
-remodel.writePlaceFile("output-place-updated.rbxlx", outputGame)
+local place = fs.readFile("Nuclear.rbxl")
+local Packages = place.ReplicatedStorage.Packages
+
+print("Making Nuclear a Module")
+fs.writeFile("Nuclear.rbxm", Packages)
+print("Done! :D")
+
+print("Publishing to roblox!")
+net.request(Packages, NUCLEAR_ID)
+print("Done! :D")

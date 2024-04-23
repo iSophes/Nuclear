@@ -8,10 +8,9 @@ You can also remove all the libraries and use wally for your libraries if you so
 The following Libraries are currently implemented into Nuclear and you can click on them for their documentation or github.
 All versions listed are versions currently in Nuclear. 
 
-- [Fusion V0.2](https://elttob.uk/Fusion/0.2/) 
 - [Promise V4.0.0](https://eryn.io/roblox-lua-promise)
-- [Red V2.3.0](https://red.redblox.dev/)
-- [Maid (Version Unknown)](https://quenty.github.io/NevermoreEngine/api/Maid)
+- [ByteNet V0.3.0](https://ffrostflame.github.io/ByteNet/)
+- [Trove V1.2.0](https://sleitnick.github.io/RbxUtil/api/Trove/)
 - [Signal V2.0.1](https://sleitnick.github.io/RbxUtil/api/Signal/)
 
 ## Installing and removing libraries
@@ -46,3 +45,14 @@ The below steps will explain how to use step B
     - This will give you full intellisense, so don't worry about losing on that!
   
 That's how you install libraries with Nuclear. Very simple.
+
+## After-steps.
+
+I recommend you add your module into Nuclear so you have a nicer time accessing your modules. 
+Instead of having to require the modules folder, you can just require Nuclear and use:
+
+```lua
+local Module = Nuclear.Module
+```
+
+It keeps your intellisense too!

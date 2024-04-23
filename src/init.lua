@@ -1,8 +1,14 @@
 local RunService = game:GetService("RunService")
+local ModulesFolder = script.Modules
 
-local Nuclear = {}
+local Nuclear = {
+	ByteNet = require(ModulesFolder.ByteNet),
+	Promise = require(ModulesFolder.Promise),
+	Signal = require(ModulesFolder.Signal),
+	Trove = require(ModulesFolder.Trove),
+}
 
-local function InitialiseModule(Module)
+local function InitialiseModule(Module: ModuleScript): nil
 	local RequiredModule = require(Module)
 
 	if RequiredModule.Init == nil then
@@ -12,7 +18,7 @@ local function InitialiseModule(Module)
 	RequiredModule.Init()
 end
 
-local function StartModule(Module)
+local function StartModule(Module: ModuleScript): nil
 	local RequiredModule = require(Module)
 
 	if RequiredModule.Start == nil then
@@ -22,7 +28,7 @@ local function StartModule(Module)
 	RequiredModule.Start()
 end
 
-function Nuclear:Start(Modules: table?)
+function Nuclear:Start(Modules: { ModuleScript }?)
 	if not Modules then
 		if RunService:IsServer() then
 			Modules = game:GetService("ServerScriptService"):GetDescendants()
