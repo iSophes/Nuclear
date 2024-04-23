@@ -1,9 +1,7 @@
 [package]
 name = "isophes/nuclear"
-version = "0.0.1"
+description = "Fast, Light, Adaptable, Easy. Everything that frameworks should be."
+version = "0.1.0"
+licence = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-
-[dependencies]
-
-bytenet = "ffrostflame/bytenet@0.4.5"
