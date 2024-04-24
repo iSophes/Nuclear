@@ -1,0 +1,108 @@
+:root {
+	--nuclear-grey-0: #000000;
+	--nuclear-grey-1: #08001B;
+	--nuclear-grey-2: #141832;
+	--nuclear-grey-3: #36304f;
+	--nuclear-grey-4: #544c68;
+	--nuclear-grey-5: #716a87;
+	--nuclear-grey-6: #9189a7;
+	--nuclear-grey-7: #aeacc3;
+	--nuclear-grey-8: #d2cede;
+	--nuclear-grey-9: #F5F1FF;
+	--nuclear-grey-10: #ffffff;
+
+	--nuclear-grey-1-a80: #08001Bcc;
+	--nuclear-grey-2-a80: #201432cc;
+	--nuclear-grey-8-a80: #d2cedecc;
+	--nuclear-grey-9-a80: #F5F1FFcc;
+
+	--nuclear-green: hsl(113, 100%, 50%);
+	--nuclear-green-p1: hsl(113, 100%, 60%);
+	--nuclear-green-p2: hsl(113, 100%, 80%);
+	--nuclear-green-n1: hsl(113, 100%, 40%);
+	--nuclear-green-n2: hsl(113, 100%, 20%);
+	--nuclear-green-a10: hsla(113, 100%, 50%, 10%);
+	--nuclear-green-a20: hsla(113, 100%, 50%, 20%);
+	--nuclear-green-a50: hsla(113, 100%, 50%, 50%);
+
+	--nuclear-magenta: hsl(320, 100%, 50%);
+	--nuclear-magenta-p1: hsl(320, 100%, 60%);
+	--nuclear-magenta-p2: hsl(320, 100%, 80%);
+	--nuclear-magenta-n1: hsl(320, 100%, 40%);
+	--nuclear-magenta-n2: hsl(320, 100%, 20%);
+	--nuclear-magenta-a10: hsl(320, 100%, 50%, 10%);
+	--nuclear-magenta-a20: hsl(320, 100%, 50%, 20%);
+	--nuclear-magenta-a50: hsl(320, 100%, 50%, 50%);
+
+	--nuclear-grey: hsl(240, 5%, 60%);
+	--nuclear-grey-p1: hsl(240, 5%, 70%);
+	--nuclear-grey-p2: hsl(240, 5%, 80%);
+	--nuclear-grey-n1: hsl(240, 5%, 40%);
+	--nuclear-grey-n2: hsl(240, 5%, 20%);
+	--nuclear-grey-a10: hsl(240, 5%, 60%, 10%);
+	--nuclear-grey-a20: hsl(240, 5%, 60%, 20%);
+	--nuclear-grey-a50: hsl(240, 5%, 60%, 50%);
+}
+
+[data-md-color-scheme="nuclear-light"] {
+	--nuclear-bg-0: var(--nuclear-grey-8);
+	--nuclear-bg-1: var(--nuclear-grey-9);
+	--nuclear-bg-1-a80: var(--nuclear-grey-9-a80);
+	--nuclear-bg-2: var(--nuclear-grey-10);
+	--nuclear-bg-3: var(--nuclear-grey-10);
+
+	--nuclear-fg-1: var(--nuclear-grey-2);
+	--nuclear-fg-2: var(--nuclear-grey-3);
+	--nuclear-fg-3: var(--nuclear-grey-4);
+
+
+	--nuclear-accent: var(--nuclear-magenta-n1);
+	--nuclear-accent-light: var(--nuclear-magenta-p2);
+	--nuclear-accent-dark: var(--nuclear-magenta-n2);
+	--nuclear-accent-text: var(--nuclear-magenta-n2);
+	--nuclear-accent-a10: var(--nuclear-magenta-a10);
+	--nuclear-accent-a20: var(--nuclear-magenta-a20);
+
+	--nuclear-accent-hover: var(--nuclear-grey);
+	--nuclear-accent-hover-text: var(--nuclear-grey-n2);
+	--nuclear-accent-hover-a10: var(--nuclear-grey-a10);
+	--nuclear-accent-hover-a20: var(--nuclear-grey-a20);
+
+	--nuclear-stroke: hsla(240, 5%, 0%, 15%);
+	--nuclear-smoke: var(--nuclear-grey-9-a80);
+}
+
+[data-md-color-scheme="nuclear-dark"] {
+	--nuclear-bg-0: var(--nuclear-grey-2);
+	--nuclear-bg-1: var(--nuclear-grey-1);
+	--nuclear-bg-1-a80: var(--nuclear-grey-1-a80);
+	--nuclear-bg-2: var(--nuclear-grey-2);
+	--nuclear-bg-3: var(--nuclear-grey-3);
+
+	--nuclear-fg-1: var(--nuclear-grey-9);
+	--nuclear-fg-2: var(--nuclear-grey-9);
+	--nuclear-fg-3: var(--nuclear-grey-10);
+
+	--nuclear-accent: var(--nuclear-magenta);
+	--nuclear-accent-light: var(--nuclear-magenta-p2);
+	--nuclear-accent-dark: var(--nuclear-magenta-n2);
+	--nuclear-accent-text: var(--nuclear-magenta-p1);
+	--nuclear-accent-a10: var(--nuclear-magenta-a10);
+	--nuclear-accent-a20: var(--nuclear-magenta-a20);
+
+	--nuclear-accent-hover: var(--nuclear-grey);
+	--nuclear-accent-hover-text: var(--nuclear-grey-p1);
+	--nuclear-accent-hover-a10: var(--nuclear-grey-a10);
+	--nuclear-accent-hover-a20: var(--nuclear-grey-a20);
+
+	--nuclear-stroke: hsla(240, 5%, 100%, 15%);
+	--nuclear-smoke: var(--nuclear-grey-1-a80);
+}
+
+[data-md-color-scheme="nuclear-light"] .nuclear-dark-theme-only,
+[data-md-color-scheme="nuclear-dark"] .nuclear-light-theme-only,
+[data-md-color-scheme="nuclear-light"] img[src$="#only-dark"],
+[data-md-color-scheme="nuclear-dark"] img[src$="#only-light"] {
+	display: none !important;
+}
+

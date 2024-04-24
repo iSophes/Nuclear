@@ -1,0 +1,39 @@
+* {
+	--md-default-fg-color:               var(--nuclear-fg-1);
+	--md-default-fg-color--light:        var(--nuclear-fg-2);
+	--md-default-fg-color--lighter:      var(--nuclear-fg-3);
+	--md-default-fg-color--lightest:     var(--nuclear-fg-3);
+
+	--md-default-bg-color:               var(--nuclear-bg-1);
+	--md-default-bg-color--light:        var(--nuclear-bg-2);
+	--md-default-bg-color--lighter:      var(--nuclear-bg-3);
+	--md-default-bg-color--lightest:     var(--nuclear-bg-3);
+
+
+
+	--md-primary-fg-color:               var(--nuclear-accent);
+	--md-primary-fg-color--light:        var(--nuclear-accent-light);
+	--md-primary-fg-color--dark:         var(--nuclear-accent-dark);
+
+	--md-accent-fg-color:                var(--nuclear-accent-hover);
+	--md-accent-fg-color--transparent:   var(--nuclear-accent-hover-a10);
+
+	--md-typeset-color:                var(--md-default-fg-color);
+	--md-typeset-a-color:              var(--md-primary-fg-color);
+	--md-typeset-mark-color:           var(--nuclear-orange-alpha50);
+	--md-typeset-del-color:            hsla(6, 90%, 60%, 0.15);
+	--md-typeset-ins-color:            hsla(150, 90%, 44%, 0.15);
+	--md-typeset-kbd-color:            hsla(0, 0%, 98%, 1);
+	--md-typeset-kbd-accent-color:     hsla(0, 100%, 100%, 1);
+	--md-typeset-kbd-border-color:     hsla(0, 0%, 72%, 1);
+	--md-typeset-table-color:          hsla(0, 0%, 0%, 0.12);
+
+	--md-admonition-fg-color:          var(--nuclear-fg-1);
+	--md-admonition-bg-color:          var(--nuclear-bg-2);
+
+	--md-footer-fg-color:              var(--nuclear-fg-2);
+	--md-footer-fg-color--light:       var(--nuclear-fg-2);
+	--md-footer-fg-color--lighter:     var(--nuclear-fg-2);
+	--md-footer-bg-color:              var(--nuclear-bg-1);
+	--md-footer-bg-color--dark:        var(--nuclear-bg-1);
+  }

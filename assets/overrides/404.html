@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+
+<!-- Content -->
+{% block content %}
+  <div class="Nuclear404">
+	<h1>
+		Error 404! That page can't be found!
+	</h1>
+	<p>
+		We searched everything we have and we can't find what you want.
+	</p>
+	<p>
+		Here's some ideas on how you can find it:
+		<ul>
+            <br />
+			<li>
+				Make sure there's no typos in the URL.
+			</li>
+			<li>
+				Use the search box above to try and find the page.
+			</li>
+			<li>
+				The page might not exist yet!
+			</li>
+		</ul>
+        <br />
+		Alternatively, <a href="/">return to the main page instead.</a>
+	</p>
+  </div>
+{% endblock %}
+
+<!-- Disqus integration -->
+{% block disqus %}{% endblock %}
