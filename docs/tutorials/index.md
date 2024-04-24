@@ -4,24 +4,6 @@ Welcome, thank you for trying Nuclear! Here, you will
 learn all things about Nuclear and what it entails. It's dead easy, so all
 newcomers are welcome!
 
-!!! caution "But first, something important..."
-	**<span style="font-size: 1.5em; color: var(--nuclear-accent);">
-	Nuclear is in *ALPHA*! Do not use Nuclear unless you are willing to
-    have your code rapidly change as we release new versions.
-	</span>**
-
-	As we are in Alpha. You *will* experience:
-
-	- bugs in core features
-	- updates that completely remove existing features
-	- changes in behaviour between versions
-	- changing advice on coding conventions and how to structure your project
-
-	Don't be discouraged from using Nuclear! It still has most core functionalities
-    in place.
-
----
-
 # Expectations
 
 Firstly, lets set some ground rules.
@@ -75,10 +57,7 @@ There are currently two methods of installing Nuclear, dependent of how you code
 # Need help?
 
 Nuclear is designed for ease of use and if you need any help, there will guaranteed to be someone
-to help.
-
-We have an amazing community over on the [Roblox OSS Discord Server](https://discord.gg/h2NV8PqhAD). 
-There is an amazing community and we will be sure to help our with any issues!
-
+to help. Just join the [Roblox OSS Discord Server](https://discord.gg/tXXD4wkNZd) and See [This Thread](https://discord.com/channels/385151591524597761/1232424208940798032)
+and ask away!
 
 

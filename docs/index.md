@@ -16,12 +16,8 @@ Frameworks are designed to help, but end up with a load of unneccessary bloat wh
 Nuclear fixes that.
 </p>
 <p>
-It's a plain bootstrapper where you can import your own modules, at your own accord. It fully performs to your
-needs and accommodates your need for change. 
-</p>
-<p>
-Don't like Module A and prefer it's alternative Module B? Remove A and in goes B! Nuclear focuses on lightweight
-customisability and having your modules swappable.
+It's just a boostrapper, and it's all frameworks really should be. Frameworks like Knit come with utilities that increase the framework's
+size and also some cannot be removed as they are a core part of the framework.
 </p>
 </section>
 </section>
@@ -47,12 +43,10 @@ Nuclear doesn't faff about with creating services, controllers, making new objec
 ![Illustration of creating instances](assets/home/Instances-Dark.svg#only-dark)
 --->
 
-<h2 class="second">Custom Networking</h2>
+<h2 class="second">Accessibility</h2>
 
-Nuclear offers a Networking library called [ByteNet](https://ffrostflame.github.io/ByteNet/), a networking framework which describes itself as "simple, buffer-based networking". We believe that this is currently one of the best networking libraries out and you should definitely use this. However, we don't tie you down to this and allow for easy changes to whichever networking library you may use!
-
-We like our customisability at Nuclear, and it's what
-our users deserve.
+Newer programmers tend to use multiple scripts and localscripts for their code. This is generally a bad idea and Nuclear
+makes it easy for Newer Programmers to convert to Single-Script architecture.
 
 -----
 
@@ -60,12 +54,10 @@ our users deserve.
 ![Illustration of processing animation](assets/home/Animation-Dark.svg#only-dark)
 --->
 
-<h2 class="third">Custom Utensils</h2>
+<h2 class="third">Not tied down</h2>
 
-Nuclear comes with industry-standard tools to help you write clean, robust code.
-Some of these tools include: [Promise](https://eryn.io/roblox-lua-promise/), [Trove](https://sleitnick.github.io/RbxUtil/api/Trove/)
-
-Nuclear lets you choose what tools you want and allows for instant removal or addition for any packages you want!
+Some frameworks force you to have modules that you may not want. Nuclear removes this faff together by
+not coming with modules to create an ultra-lightweight bootstrapper and make it much easier to add and remove what you want.
 
 -----
 
@@ -76,10 +68,7 @@ for development and how we aim to create a future of well-written, robust code w
 isn't infested with slow and buggy tools powering the framework.
 
 If you want to learn more, <a href="./tutorials">our user friendly and consise tutorials 
-complete with diagrams, examples and code</a>, will surely help you out!   
-
-We would love to bring you into our cosy community! We don't bite and we'll surely help
-with any problems you are facing!
+with examples and code</a>, will surely help you out!   
 
 </section>
 </div>

@@ -1,12 +1,6 @@
 local RunService = game:GetService("RunService")
-local ModulesFolder = script.Modules
 
-local Nuclear = {
-	ByteNet = require(ModulesFolder.ByteNet),
-	Promise = require(ModulesFolder.Promise),
-	Signal = require(ModulesFolder.Signal),
-	Trove = require(ModulesFolder.Trove),
-}
+local Nuclear = {}
 
 local function InitialiseModule(Module: ModuleScript): nil
 	local RequiredModule = require(Module)
